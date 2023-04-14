@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="anetra.css">
+    <title>Anetra</title>
+</head>
+<body>
+    <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Queens</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="anetra.html">Anetra</a>
+            <a href="luxx.html">Luxx Noir London</a>
+            <a href="mib.html">Mistress Isabelle Brooks</a>
+            <a href="colby.html">Sasha Colby</a>
+        </div>
+    </div>
+    </div>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <div class="top">
+        <div class="challenge">
+            <h2>Challenge Wins</h2>
+            <p><ul id="wins">
+                <li>Talent Show</li>
+                <li>Rusical - Wig Loose</li>
+                <li>Makeover Challenge</li>
+            </ul></p>
+        </div>
+        <div id=”inst”>
+            <a id="insta" href="https://www.instagram.com/iamanetra" target="_blank">@‌iamanetra</a>
+        </div> 
+        <div class="toots">
+            <h2 class="totww">Toot of the Week Wins</h2>
+            <div class="hover_img">
+                <ul id="totw">
+                    <li><a href="#">Crystalised Extravanganza<span><img class="tootimg" src="images/crystal.JPG" alt="image" height="450"></span></a></li>
+                    <li><a href="#">Family Resemblence<span><img class="tootimg" src="images/makeover.JPG" alt="image" height="450"></span></a></li>                </ul>
+                </div>
+        </div>
+    </div>
+    <div class="main">
+        <img id="main" src="images/teamanerta.JPG" alt="Anetra">
+    </div>
+    <div class="bottom">
+        <div class="lipdiv">
+            <div class="lips">
+                <h2 id="lips">Lip Sync Wins</h2>
+                <p class="lipsyncs">4</p>
+            </div>
+        </div>    
+        <div class="talent">
+            <h2 class="tshow">Talent Show Talent</h2>
+            <p class="ts">Martial Arts/Duck Walking</p>
+            <img src="images/duckwalk.gif" class="duckwalk" height="250px">
+        </div>
+        <div class="catchphrase">
+            <h2>Catchphrase</h2>
+            <p class="duck">"You better walk that f*cking duck!"</p>
+        </div>
+    </div>
+</body>
+</html>

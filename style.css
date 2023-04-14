@@ -1,0 +1,117 @@
+html{
+    background-image: url('images/bg.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+/* -------- NAVBAR -------- */
+.navbar{
+    background-color: #cf3087;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    position: relative;
+    opacity: 65%;
+}
+.navbar:hover{
+    opacity: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.navbar a:hover{
+    background-color: #a8276e;
+    color: white;
+    font-size: 18px;
+}
+/* -------- DROPDOWN -------- */
+.dropbtn {
+    background-color: #cf3087;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+    .dropbtn:hover, .dropbtn:focus {
+    background-color: #a8276e;
+    font-size: 18px;
+}
+    .dropdown {
+    position: relative;
+    display: inline-block;
+}
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+    .dropdown-content a {
+    color: #cf3087;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+    .dropdown a:hover {background-color: #ddd;}
+    .show {display: block;}
+/* -------- DROPDOWN END -------- */
+/* -------- NAVBAR END -------- */
+
+.intro{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    padding:auto;
+    width: 900px;
+}
+.introtext{
+    font-family:monospace;
+    font-size: 25px;
+    color:#a8276e;
+    text-align: center;
+}
+/* ---------- BUTTONS --------- */
+.imgbtns{
+    display: flexbox;
+    margin: auto;
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.imgbtns1{
+    display: flexbox;
+    margin: auto;
+    padding-top: 50px;
+    width: 450px;
+    display: inline;
+}
+.imgbtns2{
+    display: flexbox;
+    margin: auto;
+    padding-top: 50px;
+    width: 450px;
+    display: inline;
+}
+/* ------ BUTTONS END ------ */
+.bottom{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mib.css">
+    <title>Mistress Isabelle Brooks</title>
+</head>
+<body>
+    <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Queens</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="anetra.html">Anetra</a>
+            <a href="luxx.html">Luxx Noir London</a>
+            <a href="mib.html">Mistress Isabelle Brooks</a>
+            <a href="colby.html">Sasha Colby</a>
+        </div>
+    </div>
+    </div>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <div class="top">
+        <div class="challenge">
+            <h2>Challenge Wins</h2>
+            <p><ul id="wins">
+                <li>The Daytona Wind</li>
+            </ul></p>
+        </div>
+        <div id=”inst”>
+            <a id="insta" href="https://www.instagram.com/mistressisabellebrooks" target="_blank">@‌mistressisabellebrooks</a>
+        </div> 
+        <div class="gif">
+            <img src="images/bounce.GIF" height="200px" alt="Mistress boob bounce" class="boobs">
+        </div>
+        <div class="toots">
+            <h2 class="totww">Toot of the Week Wins</h2>
+            <div class="hover_img">
+                <ul id="totw">
+                    <li><a href="#">Drag Excellence<span><img class="tootimg" src="images/dragex.JPG" alt="image" height="450"></span></a></li>
+                </ul>
+                </div>
+        </div>
+    </div>
+    <div class="main">
+        <img id="main" src="images/teammib.JPG" alt="Mistress Isabelle Brooks">
+    </div>
+    <div class="bottom">
+        <div class="lips">
+            <h2 id="lips">Lip Sync Wins</h2>
+            <p class="lipsyncs">2</p>
+        </div>
+        <div class="talent">
+            <h2 class="tshow">Talent Show Talent</h2>
+            <p class="ts">Lip Syncing</p>
+        </div>
+        <div class="catchphrase">
+            <h2>Catchphrase</h2>
+            <p class="cp">"Gather her!"</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="luxx.css">
+    <title>Luxx Noir London</title>
+</head>
+<body>
+    <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Queens</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="anetra.html">Anetra</a>
+            <a href="luxx.html">Luxx Noir London</a>
+            <a href="mib.html">Mistress Isabelle Brooks</a>
+            <a href="colby.html">Sasha Colby</a>
+        </div>
+    </div>
+    </div>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <div class="top">
+        <div class="gif">
+            <img src="images/luxx.GIF" height="275px" alt="Luxx Noir London" class="luxx">
+        </div>
+        <div class="challenge">
+            <h2>Challenge Wins</h2>
+            <p><ul id="wins">
+                <li>Design Challenge</li>
+                <li>Stand Up Comedy</li>
+            </ul></p>
+        </div>
+        <div id=”inst”>
+            <a id="insta" href="https://www.instagram.com/luxxnoirlondon" target="_blank">@‌luxxnoirlondon</a>
+        </div> 
+        <div class="toots">
+            <h2 class="totww">Toot of the Week Wins</h2>
+            <div class="hover_img">
+                <ul id="totw">
+                    <li><a href="#">Reunion<span><img class="tootimg" src="images/reunion.JPG" alt="image" height="450"></span></a></li>
+                </ul>
+                </div>
+        </div>
+    </div>
+    <div class="main">
+        <img id="main" src="images/teamluxx.JPG" alt="Luxx Noir London">
+    </div>
+    <div class="bottom">
+        <div class="lips" id="ls">
+            <h2 id="lips">Lip Sync Wins</h2>
+            <p class="lipsyncs">3</p>
+        </div>
+        <div class="talent">
+            <h2 class="tshow">Talent Show Talent:</h2>
+            <p class="ts">Lip Syncing</p>
+        </div>
+        <div class="catchphrase" id="catch">
+            <h2>Catchphrase</h2>
+            <p class="cp">"Gagged them a bit, for sure!"</p>
+        </div>
+    </div>
+</body>
+
+</html>

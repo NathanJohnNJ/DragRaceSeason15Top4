@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Drag Race Season 15 Top 4 Home Page</title>
+</head>
+<body>
+    <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Queens</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="anetra.html">Anetra</a>
+            <a href="luxx.html">Luxx Noir London</a>
+            <a href="mib.html">Mistress Isabelle Brooks</a>
+            <a href="colby.html">Sasha Colby</a>
+        </div>
+    </div>
+    </div>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        </script>
+    <div class="intro">
+        <h1 class="introtext">A celebration of the top 4 of the latest season of RuPaul’s Drag Race, showing off some of their highlights in anticipation for the final.</h1>
+    </div>
+    <div class="imgbtns">
+        <div class="imgbtns1">
+            <a href="anetra.html">
+                <img class="line1" src="images/anetrabtn.PNG" alt="Anetra" width="200px" height="200px">
+            </a>
+            <a href="luxx.html">
+                <img class="line1" src="images/luxxbtn.PNG" alt="Luxx Noir London" width="200px" height="200px"/>
+            </a>
+        </div>
+        <br>
+        <div class="imgbtns2">
+            <a href="mib.html">
+                <img class="line2" src="images/mibbtn.PNG" alt="Mistress Isabelle Brooks" width="200px" height="200px">
+            </a>
+            <a href="colby.html">
+                <img class="line2" src="images/colbybtn.PNG" alt="Sasha Colby" width="200px" height="200px"/>
+            </a>
+        </div>
+        <div class="bottom">
+            <img src="images/backgroundbottom.PNG" alt="Season 15 promo shot" width="90%">
+        </div>
+    </div>
+</body>
+</html>

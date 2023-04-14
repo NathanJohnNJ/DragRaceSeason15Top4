@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="colby.css">
+    <title>Sasha Colby</title>
+</head>
+<body>
+    <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Queens</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="anetra.html">Anetra</a>
+            <a href="luxx.html">Luxx Noir London</a>
+            <a href="mib.html">Mistress Isabelle Brooks</a>
+            <a href="colby.html">Sasha Colby</a>
+        </div>
+    </div>
+    </div>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <div class="top">
+        <div class="challenge">
+            <h2>Challenge Wins</h2>
+            <p><ul id="wins">
+                <li>All Queens go to Heaven</li>
+                <li>Old Friends Gold</li>
+                <li>The Crystal Ball</li>
+                <li>Blame on the Edit Rumix</li>
+            </ul></p>
+        </div>  
+        <div id=”inst”>
+            <a id="insta" href="https://www.instagram.com/sashacolby" target="_blank">@‌sashacolby</a>
+        </div> 
+        <div class="toots">
+            <h2 class="totww">Toot of the Week Wins</h2>
+            <div class="hover_img">
+            <ul id="totw">
+                <li><a href="#">Puffer Please<span><img class="tootimg" src="images/puffer.JPG" alt="image" height="450"></span></a></li>
+                <li><a href="#">Tie-Dye For<span><img class="tootimg" src="images/taidye.JPG" alt="image" height="450"></span></a></li>
+                <li><a href="#">Everybody Say Glove<span><img class="tootimg" src="images/glove.JPG" alt="image" height="450"></span></a></li>
+                <li><a href="#">Metallica<span><img class="tootimg" src="images/metal.JPG" alt="image" height="450"></span></a></li>
+                <li><a href="#">Drag Excellence<span><img class="tootimg" src="images/excel.JPG" alt="image" height="450"></span></a></li>
+                <li><a href="#">Rip Her to Shreds<span><img class="tootimg" src="images/rip.JPG" alt="image" height="450"></span></a></li>
+                <li><a href="#">Who Is She?<span><img class="tootimg" src="images/who.JPG" alt="image" height="450"></span></a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <img id="main" src="images/teamcolby.JPG" alt="Sasha Colby">
+    </div>
+    <div class="bottom">
+        <div class="lipdiv">
+            <div class="lips">
+                <h2 id="lips">Lip Sync Wins</h2>
+                <p class="lipsyncs">1</p>
+            </div>
+        </div>
+        <div class="gif">
+            <img src="images/sasha.GIF" height="250px" alt="Sasha Colby Lip Sync" class="sashagif">
+        </div>
+        <div class="talent">
+            <h2 class="tshow">Talent Show Talent</h2>
+            <p class="ts">Lip Syncing</p>
+        </div>
+        <div class="catchphrase">
+            <h2>Catchphrase</h2>
+            <p class="catch">"I am your favourite drag queen's, favourite drag queen."</p>
+        </div>
+    </div>
+</body>
+</html>

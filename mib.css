@@ -1,0 +1,200 @@
+html{
+    background-color: #a8276e;
+}
+
+/* -------- NAVBAR -------- */
+.navbar{
+    background-color: #cf3087;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    position: relative;
+    opacity: 65%;
+}
+.navbar:hover{
+    opacity: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.navbar a:hover{
+    background-color: #a8276e;
+    color: white;
+    font-size: 18px;
+}
+/* -------- DROPDOWN -------- */
+.dropbtn {
+    background-color: #cf3087;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+    .dropbtn:hover, .dropbtn:focus {
+    background-color: #a8276e;
+    font-size: 18px;
+}
+    .dropdown {
+    position: relative;
+    display: inline-block;
+}
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+    .dropdown-content a {
+    color: #cf3087;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+    .dropdown a:hover {background-color: #ddd;}
+    .show {display: block;}
+.top{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+.challenge{
+    background-color: #711648;
+    width: 190px;
+    height: 120px;
+    text-align: center;
+    color: white;
+    border-radius: 50%
+}
+h2{
+    padding-top: 30px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    line-height: 1px;
+}
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#wins{
+    font-size: 14px;
+    text-align: left;
+    padding-right: 12px;
+    padding-left: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+.catchphrase{
+    background-color: #711648;
+    width: 170px;
+    height: 120px;
+    text-align: center;
+    color: white;
+    border-radius: 50%
+}
+.cp{
+    font-size: 18px;
+}
+
+#main{
+    border-radius: 35%;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.bottom{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+.lips{
+    background-color: #711648;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    color: white;
+    border-radius: 50%
+}
+#lips{
+    font-family: arial;
+}
+.lipsyncs{
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.toots{
+    background-color: #711648;
+    width: 200px;
+    height: 145px;
+    text-align: center;
+    color: white;
+    border-radius: 50%
+}
+.totww{
+    padding-top: 50px;
+    font-family: arial;
+}
+#totw{
+    font-size: 14px;
+    text-align: left;
+    padding-right: 12px;
+    padding-left: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+.talent{
+    background-color: #711648;
+    width: 205px;
+    height: 130px;
+    text-align: center;
+    color: white;
+    border-radius: 50%
+}
+.ts{
+    color: white;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tootimg{
+    border-radius: 50%;
+}
+.hover_img a { position:relative; }
+.hover_img a span { padding-top:50px; position:absolute; display:none; z-index:99; background-clip:content-box; }
+.hover_img a:hover span { display:block; }
+
+.gif{
+    margin-top: 50px;
+}
+.boobs{
+    border-radius: 50%;
+    width: 200px;
+    margin-top:-60px;
+}
+#insta{
+    font-size: 40px;
+    font-family: verdana;
+    display: flex;
+    position: absolute;
+    padding-top: 180px;
+    margin-left: -100px;
+}
